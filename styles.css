@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    gap: 5px;
+    display: flex;
+}
+ul li a{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+transition: 800ms all ease;
+}
+
+ul li a:hover{
+    color: black;
+}
+ .button{
+    background-color:#081158 ;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: 800ms all ease;
+}
+
+.button a{
+    color: #fbb244;  
+}
+
+.button:hover{
+    background: transparent;
+}
+
+.button a;:hover{
+    color: #000000;  
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    /* padding: 20px; */
+    align-items: center;
+}
+
+
+
+.steam img{
+    width: 97%;
+}
+
+
+.paragraph{
+    color: #fbb244;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    background: #fbb24433;
+    width: fit-content;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.writeup h1{
+    color: #081158;
+    font-size: 40;
+    text-transform: capitalize;
+    
